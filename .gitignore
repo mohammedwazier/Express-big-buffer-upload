@@ -1,5 +1,5 @@
-!Source/*.*
-Source/*.*
+!./Source/*.*
+./Source/*.*
 node_modules
 yarn-error.log
 yarn.lock
