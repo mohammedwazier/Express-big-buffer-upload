@@ -23,6 +23,7 @@ router.get('/Index', (req, res) => {
 })
 
 router.post('/UploadFile', async (req, res) => {
+	console.log(req)
 	let response = {};
 
     req.pipe(req.busboy)
